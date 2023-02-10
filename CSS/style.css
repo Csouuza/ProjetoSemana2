@@ -1,0 +1,159 @@
+.cabecalhoPrincipal .container {
+    width: 100%;
+    height: 8vh;
+}
+
+#logo {
+width: 5vw;
+height: 8vh;
+margin-left: 50px;
+top: 0;
+position: absolute;
+    
+   
+  
+    
+    
+}
+
+
+body{
+margin: 0;
+width: 100%; 
+height:100vh;
+background:url(https://nubank.com.br/images-cms/1664201099-home-nubank.jpg?w=1152&dpr=1&auto=compress&fm=webp);
+background-position: 100%;
+background-size: cover;
+}
+
+.caixa {
+    background-color: #FFFFFF;
+    height: 8vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+nav li{
+	display:inline;
+	margin:0 0 0 15px;
+}
+
+nav a{
+	color:#000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav a:hover{
+	color:#FF0000;
+ 
+	
+}
+
+
+
+.menu{
+    position: relative;
+    display: inline-flex;
+    padding-left: 15px;
+}
+.menuzao{
+    position: relative;
+    left: 150px;
+    width: 40vw;
+    height: 30px;
+}
+
+.login {
+    position: relative;
+    left: 450px;
+    color: blueviolet;
+    font-size: 20px;
+
+}
+
+form {
+	margin: 40px 48px;
+   
+    
+}
+
+.forms {
+    box-sizing: border-box;
+	border: 2px solid #FFFFFF;
+	border-radius: 15px;
+    background-color: #FFFFFF;
+    width: 25%;
+    height: 50vh;
+    position: relative;
+
+}
+
+.cpf{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    margin-top: 8%;
+    margin-left: 5%;
+
+  
+}
+
+.input {
+    border: none;
+    height: 17%;
+    border-block-end-style: solid;
+    width: 80%;
+   
+
+}
+
+
+.input:hover{
+
+    
+}
+
+.enviar {
+    border-radius: 32px;
+    height: 17%;
+    width: 77%;
+    border: 0;
+    text-align: initial;
+    margin: 2px;
+
+
+}
+
+.conteudo{
+    color: #FFFFFF;
+    font-family: 'Graphik', sans-serif;
+    text-align: start;
+    position: absolute;
+    top: 37vh;
+    display: inline;
+    width: 450px;
+    line-height: 30px;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.titulo {
+    font-size: 3rem;
+    line-height: 1.16;
+    font-family: 'Graphik', sans-serif;
+    margin: 0px 0px 16px;
+    white-space: pre-line;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    box-sizing: border-box;
+    outline: 0px;
+    padding: 0px;
+    text-rendering: optimizelegibility;
+    appearance: none;
+    text-size-adjust: 100%;
+    border: 0px;
+
+                                                
+}

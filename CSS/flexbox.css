@@ -1,0 +1,105 @@
+.cabecalhoPrincipal .container {
+    display:flex;
+    justify-content: space-between;
+}
+
+/*.menuzao{
+    display:flex;
+   flex-flow: row wrap;
+   
+
+}
+
+#login{
+
+}
+/* analisando */
+
+#logo {
+    display: flex;
+ align-items: center;
+
+
+}
+.caixa {
+
+    display: flex;
+    
+}
+
+
+.menu {
+    display: flex; 
+    align-items: flex-end;
+
+ 
+}
+
+.menuzao {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.texto {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin-left: 5%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+
+
+}
+.titulo {
+   justify-content: center;
+}
+
+
+form {
+ display: flex;
+ align-items: flex-start;
+ justify-content: flex-end;
+ align-content: end;
+}
+
+.forms {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.cpf {
+ 
+}
+/* versão mobile */
+
+@media(max-width: 768px){
+    .cabecalhoPrincipal-nav {
+        flex-direction:column;
+    }
+    .cabecalhoPrincipal .container{
+        flex-direction:column;
+        align-items: initial;
+        text-align: center;
+    }
+
+body {
+    display: flex;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    height:100vh;
+    background-position: 100%;
+    background-size: cover;
+}
+.form {
+flex-grow: 0;
+
+}
+
+}    
